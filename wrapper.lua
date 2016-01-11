@@ -14,7 +14,7 @@ function on_msg_receive (msg)
   end
   --------------------------------------------
   if (msg.from.print_name == 'Hasi') then
-    os.execute (string.format("python3 /home/hasi/coding/tg_remote/listener.py \"%s\" &", msg.text))
+    os.execute (string.format("python3 listener.py \"%s\" &", msg.text))
   end
   --------------------------------------------
 

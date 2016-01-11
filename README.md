@@ -6,4 +6,5 @@ Project for controlling a Raspberry-PI through command from Telegram-Messenger
 
 * Change the absolute path of the `listener.py` in the `wrapper.lua` file.
 * Change the user-name in `wrapper.lua`
-* Copy the `wrapper.lua` file into the telegram-cli root folder.
+
+* Test by running `sudo telegram -s wrapper.lua` inside the project-folder(!)
